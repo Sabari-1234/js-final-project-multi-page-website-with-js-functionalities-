@@ -1,0 +1,8 @@
+$color_1:yellow;
+$color_2:rgb(9, 9, 51);
+$color_3:black;
+$bgcolor:rgb(110, 207, 240);
+@mixin color($bg,$color){
+    background-color: $bg;
+    color: $color;
+}

@@ -1,0 +1,70 @@
+#head {
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rampart One", cursive;
+  font-family: "Tilt Prism", cursive;
+  text-shadow: 2px 2px 2px black;
+  color: yellow;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(2deg);
+  }
+  25% {
+    transform: rotateZ(1deg);
+  }
+  75% {
+    transform: rotateZ(-1deg);
+  }
+  100% {
+    transform: rotateZ(-2deg);
+  }
+}
+body {
+  background-color: rgb(110, 207, 240);
+}
+
+.submit {
+  background-color: yellow;
+  color: rgb(9, 9, 51);
+  width: auto;
+}
+
+#head {
+  margin-bottom: 10vh;
+}
+
+#form {
+  background-color: rgb(9, 9, 51);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#form label {
+  color: yellow;
+}
+#form label:first-child {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+hr {
+  color: yellow;
+}
+
+#res {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  position: fixed;
+  bottom: 180px;
+  left: 520px;
+  visibility: hidden;
+}/*# sourceMappingURL=3.css.map */

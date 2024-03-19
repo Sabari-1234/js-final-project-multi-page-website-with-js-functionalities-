@@ -1,0 +1,31 @@
+.title{
+    @include font(25px);
+}
+.b1{
+   
+    @include size(100px,100px,100px);
+    border-width: 5px;
+    &:first-child{
+        background-color: rgba(250, 195, 14, 0.904);
+    }
+    &:nth-of-type(2){
+        background-color: green;
+
+    }
+    &:last-child{
+        background-color: red;
+    }
+
+}
+.b2{
+    @include size(50px,50px);
+    border: none;
+    box-shadow: 2px 2px 2px $color_2;
+    font-weight: bold;
+}
+
+.move{
+    border: none;
+    background-color:$color_1 ;
+    font-size: 25px;
+}

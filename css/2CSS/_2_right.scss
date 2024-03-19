@@ -1,0 +1,18 @@
+#right{
+    background-color:$color_2;
+    @include size;
+    & div{
+        @include size(200px,200px,200px);
+        border: 10px solid $color_3;
+        background-color: white;
+        border-color:$color_3;
+        visibility: hidden;
+    
+        
+    }
+}
+
+
+#eye,#mouth{
+    font-size: 70px;
+}

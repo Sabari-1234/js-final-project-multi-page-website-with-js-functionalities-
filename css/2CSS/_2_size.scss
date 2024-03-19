@@ -1,0 +1,7 @@
+@mixin size($height:300x,$width:530px,$radius:5px){
+    height: $height;
+    width:$width;
+    border-radius: $radius;
+    
+
+}

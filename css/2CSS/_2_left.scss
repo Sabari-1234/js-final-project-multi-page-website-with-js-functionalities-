@@ -1,0 +1,27 @@
+
+%left{
+    background-color: $color_1;
+    @include size;
+}
+%left1_2{
+    @extend %left;
+    position: absolute;
+    height: 270px;
+}
+
+#left{
+    @extend %left;
+
+}
+#left1{
+   
+   @extend %left1_2;
+   visibility: hidden;
+   
+
+}
+#left2{
+    @extend %left1_2;
+    visibility: hidden;
+    
+}

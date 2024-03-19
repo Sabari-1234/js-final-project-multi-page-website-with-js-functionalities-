@@ -1,0 +1,14 @@
+button{
+    height: 200px;
+    width: 200px;
+   @include font;
+    border: none;
+    &:nth-of-type(odd){
+        @include color($color_1, $color_2);
+
+    }
+    &:nth-of-type(even){
+        @include color($color_2, $color_1);
+
+    }
+}

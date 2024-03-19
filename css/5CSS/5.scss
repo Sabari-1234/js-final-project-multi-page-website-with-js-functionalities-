@@ -1,0 +1,35 @@
+@import '../color','../headings','../bodybg','../font','../submit';
+
+form{
+    background-color:$color_2;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    padding: 50px;
+   
+    &:nth-of-type(2) ,&:nth-of-type(3),&:nth-of-type(4){
+        position: absolute;
+        bottom: -12px;
+        width: 670px;
+        left: 70px;
+        visibility: hidden;
+    }
+    
+}
+#head{
+    margin-bottom: 6vh;
+    margin-top: 6vh;
+}
+.required{
+    color:red;
+}
+#final{
+    color: $color_1;
+    position: absolute;
+    background-color:$color_2;
+    bottom: 100px;
+    width: 668px;
+    height: 300px;
+    left: 340px;
+    visibility: hidden;
+}

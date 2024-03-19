@@ -1,0 +1,49 @@
+#head {
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Rampart One", cursive;
+  font-family: "Tilt Prism", cursive;
+  text-shadow: 2px 2px 2px black;
+  color: yellow;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(2deg);
+  }
+  25% {
+    transform: rotateZ(1deg);
+  }
+  75% {
+    transform: rotateZ(-1deg);
+  }
+  100% {
+    transform: rotateZ(-2deg);
+  }
+}
+body {
+  background-color: rgb(110, 207, 240);
+}
+
+button {
+  height: 200px;
+  width: 200px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+}
+button:nth-of-type(odd) {
+  background-color: yellow;
+  color: rgb(9, 9, 51);
+}
+button:nth-of-type(even) {
+  background-color: rgb(9, 9, 51);
+  color: yellow;
+}/*# sourceMappingURL=1.css.map */
